@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May  6 22:13:58 2025
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Standard Edition
+Revision Name : QAccelPrj
+Top-level Entity Name : top
+Family : Cyclone IV E
+Device : EP4CE10E22C8
+Timing Models : Final
+Total logic elements : 1,525 / 10,320 ( 15 % )
+    Total combinational functions : 927 / 10,320 ( 9 % )
+    Dedicated logic registers : 1,092 / 10,320 ( 11 % )
+Total registers : 1092
+Total pins : 2 / 92 ( 2 % )
+Total virtual pins : 384
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 32 / 46 ( 70 % )
+Total PLLs : 0 / 2 ( 0 % )
