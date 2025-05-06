@@ -25,5 +25,5 @@ else:
         C = random.randrange(0, 2**32)
         D = random.randrange(0, 2**32)
         Q = get_calc(A,B,C,D)
-        qs = "{:.2f}".format(Q)
-        f.write(str(A)+" "+str(B)+" "+str(C)+" "+str(D)+" "+qs+ "\n")
+        qs = int(Q)
+        f.write(str(A)+" "+str(B)+" "+str(C)+" "+str(D)+" "+str(qs)+ "\n")
