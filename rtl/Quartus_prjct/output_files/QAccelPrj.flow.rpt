@@ -1,5 +1,5 @@
 Flow report for QAccelPrj
-Tue May  6 22:14:08 2025
+Wed May  7 00:01:06 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Standard Edition
 
 
@@ -41,22 +41,22 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------+
 ; Flow Summary                                                                            ;
 +------------------------------------+----------------------------------------------------+
-; Flow Status                        ; Successful - Tue May  6 22:14:08 2025              ;
+; Flow Status                        ; Successful - Wed May  7 00:01:06 2025              ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Standard Edition ;
 ; Revision Name                      ; QAccelPrj                                          ;
 ; Top-level Entity Name              ; top                                                ;
 ; Family                             ; Cyclone IV E                                       ;
 ; Device                             ; EP4CE10E22C8                                       ;
 ; Timing Models                      ; Final                                              ;
-; Total logic elements               ; 1,525 / 10,320 ( 15 % )                            ;
-;     Total combinational functions  ; 927 / 10,320 ( 9 % )                               ;
-;     Dedicated logic registers      ; 1,092 / 10,320 ( 11 % )                            ;
-; Total registers                    ; 1092                                               ;
+; Total logic elements               ; 662 / 10,320 ( 6 % )                               ;
+;     Total combinational functions  ; 645 / 10,320 ( 6 % )                               ;
+;     Dedicated logic registers      ; 548 / 10,320 ( 5 % )                               ;
+; Total registers                    ; 548                                                ;
 ; Total pins                         ; 2 / 92 ( 2 % )                                     ;
 ; Total virtual pins                 ; 384                                                ;
 ; Total memory bits                  ; 0 / 423,936 ( 0 % )                                ;
-; Embedded Multiplier 9-bit elements ; 32 / 46 ( 70 % )                                   ;
-; Total PLLs                         ; 0 / 2 ( 0 % )                                      ;
+; Embedded Multiplier 9-bit elements ; 8 / 46 ( 17 % )                                    ;
+; Total PLLs                         ; 1 / 2 ( 50 % )                                     ;
 +------------------------------------+----------------------------------------------------+
 
 
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/06/2025 22:13:08 ;
+; Start date & time ; 05/07/2025 00:00:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; QAccelPrj           ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 10995770589193.174655878806584         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 10995770589193.174656522623548         ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -103,12 +103,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4874 MB             ; 00:00:46                           ;
-; Fitter               ; 00:00:34     ; 1.2                     ; 6300 MB             ; 00:01:16                           ;
-; Assembler            ; 00:00:01     ; 1.0                     ; 4717 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.8                     ; 4886 MB             ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4662 MB             ; 00:00:01                           ;
-; Total                ; 00:00:56     ; --                      ; --                  ; 00:02:08                           ;
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4866 MB             ; 00:00:50                           ;
+; Fitter               ; 00:00:14     ; 1.1                     ; 6176 MB             ; 00:00:30                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4711 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.3                     ; 4880 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4656 MB             ; 00:00:01                           ;
+; Total                ; 00:00:36     ; --                      ; --                  ; 00:01:25                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

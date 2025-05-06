@@ -66,9 +66,9 @@ set_instance_assignment -name VIRTUAL_PIN ON -to B_i
 set_instance_assignment -name VIRTUAL_PIN ON -to C_i
 set_instance_assignment -name VIRTUAL_PIN ON -to D_i
 set_instance_assignment -name VIRTUAL_PIN ON -to Q_o
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/QAccel.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/mult.sv
 set_global_assignment -name SDC_FILE constr.sdc
 set_global_assignment -name SYSTEMVERILOG_FILE top.sv
 set_global_assignment -name QIP_FILE util/pll.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

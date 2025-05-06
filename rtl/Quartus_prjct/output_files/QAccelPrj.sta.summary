@@ -2,40 +2,52 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -15.710
-TNS   : -5142.590
+Type  : Slow 1200mV 85C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -9.686
+TNS   : -1612.112
 
-Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.500
+Type  : Slow 1200mV 85C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.510
 TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.000
+TNS   : -1326.876
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
-Slack : -4.000
-TNS   : -3688.104
-
-Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -14.205
-TNS   : -4681.109
-
-Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.469
+Slack : 9.934
 TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -8.616
+TNS   : -1461.589
+
+Type  : Slow 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.479
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.000
+TNS   : -1326.876
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
-Slack : -4.000
-TNS   : -3675.508
-
-Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -6.458
-TNS   : -1600.587
-
-Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.193
+Slack : 9.943
 TNS   : 0.000
 
+Type  : Fast 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.760
+TNS   : -416.944
+
+Type  : Fast 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.000
+TNS   : -676.000
+
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
-Slack : -3.000
-TNS   : -1725.185
+Slack : 9.594
+TNS   : 0.000
 
 ------------------------------------------------------------

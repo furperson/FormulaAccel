@@ -5,7 +5,7 @@ module mult #(
     parameter int BLOCK_WIDTH = 16
 ) (
     input logic clk
-    , input logic    // Асинхронный сброс (активный высокий)
+    , input logic  reset  // Асинхронный сброс (активный высокий)
     , input logic valid_in // Разрешение приема новых данных
 
     , input logic signed [DATA_WIDTH-1:0] a_in
